@@ -1,7 +1,0 @@
-[
-{
-  "directory": "C:/github/Isaacstein-3D/build",
-  "command": "D:\\QT\\Tools\\mingw730_64\\bin\\g++.exe  -DSFML_STATIC @CMakeFiles/Isaacstein-3D.dir/includes_CXX.rsp -g   -o CMakeFiles\\Isaacstein-3D.dir\\app\\app.cpp.obj -c C:\\github\\Isaacstein-3D\\app\\app.cpp",
-  "file": "C:/github/Isaacstein-3D/app/app.cpp"
-}
-]
