@@ -22,9 +22,14 @@ set(SFML_DIR "SFML/SFML-2.5.1/lib/cmake/SFML")
 
 find_package(SFML 2.5 COMPONENTS graphics REQUIRED)
 
+include_directories(headers)
+include_directories(utility/headers)
 
-
-add_executable(Isaacstein-3D app/app.cpp)
+add_executable(Isaacstein-3D app/app.cpp
+src/Map.cpp headers/Map.h
+src/Player.cpp headers/Player.h
+src/Wall.cpp headers/Wall.h
+utility/src/Point.cpp utility/headers/Point.h)
 
 target_link_libraries (Isaacstein-3D sfml-graphics sfml-window sfml-system)
 #target_link_libraries (Isaacstein-3D sfml-system sfml-window sfml-graphics sfml-network sfml-audio)
